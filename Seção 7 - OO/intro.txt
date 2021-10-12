@@ -1,0 +1,15 @@
+
+História da programação
+
+//Procedural
+foco em funções 
+linguagens: C
+
+//OO
+figura central : Objeto
+
+principios importantes
+1. abstracao
+2. encapsulamento
+3. heranca (prototype)
+4. polimorfismo
