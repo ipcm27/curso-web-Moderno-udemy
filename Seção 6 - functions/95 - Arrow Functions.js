@@ -18,10 +18,10 @@ let dobro = (a) => 2 * a;
 //arrow em funções de alta órdem:
 const nums = [1, 2, 3, 4, 5];
 
-// Good
+// com arrow
 let resultado = nums.map((a) => 2 * a);
 
-// Bad
+// sem arrow
 let resultado2 = nums.map(function (a) {
   return 2 * a;
 });
