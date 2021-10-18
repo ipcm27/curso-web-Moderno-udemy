@@ -1,0 +1,10 @@
+O que é DOM ?
+    Document object Model - é uma estrutura em árvore que que serve para organizar o HTML 
+
+
+    funcoes importantes:
+    getElementsByClassName
+    getElementById("primeiro").classList.add("destaque");
+
+      const divs = document.getElementsByTagName("div");
+      Array.from(divs).forEach((e) => e.classList.remove("destaque"));

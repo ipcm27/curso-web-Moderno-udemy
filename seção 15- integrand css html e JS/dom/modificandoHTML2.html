@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Modificando HTML #02</title>
+    <link rel="stylesheet" href="css/estilo.css" />
+  </head>
+
+  <body class="conteudo exercicio">
+    <div>
+      <p>Texto Inicial</p>
+    </div>
+    <script>
+      const div = document.querySelector("div");
+      div.innerHTML = "wubba lubba dub dub";
+      // div.outerHTML = "Hello";
+      div.insertAdjacentHTML("beforebegin", "<p>before brefore</p");
+      div.insertAdjacentHTML("afterbegin", "<p>I'm after begin</p>");
+      div.insertAdjacentHTML("beforeend", "<p>  before end</p>");
+      div.insertAdjacentHTML("afterend", "<p>after end </p>");
+    </script>
+  </body>
+</html>

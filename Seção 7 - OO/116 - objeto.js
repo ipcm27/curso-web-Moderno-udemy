@@ -2,7 +2,7 @@
 
 // 116
 // formas de criar um objeto:
-//  inicializadores de ibjeto,funcoes construtoras, funcoes favotry, object.create
+//  inicializadores de ibjeto,funcoes construtoras, funcoes factory, object.create
 
 // 117
 // Quando manipulamos um objeto estamos mexendo NO OBJEto e nao na constante que ele está atribuido.
