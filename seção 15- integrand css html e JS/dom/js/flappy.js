@@ -140,7 +140,7 @@ function FlappyBird() {
   const barreiras = new Barreiras(altura, largura, 150, 400, () =>
     progresso.atualizarPontos(++pontos)
   );
-  const passaro = new Passaro(350);
+  const passaro = new Passaro(450);
 
   areaDojogo.appendChild(progresso.elemento);
   areaDojogo.appendChild(passaro.elemento);
