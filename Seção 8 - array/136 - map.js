@@ -5,6 +5,7 @@
 // map modifica cada item do array original e retorna um novo array, deixando o original intacto
 
 const nums = [1, 2, 3, 4];
+const nomes = ["joao", "maria"];
 
 const duplicados = nums.map(function (e) {
   return e * 2;
@@ -23,6 +24,12 @@ const paraDinheiro = (e) => `R$ ${parseFloat(e).toFixed(2).replace(".", ",")}`;
 
 dinheiros = nums.map(somar10).map(triplicar).map(paraDinheiro);
 console.log(dinheiros);
+
+function addLala(e) {
+  return e.concat("lala");
+}
+
+console.log(nomes.map((e) => addLala(e)));
 
 // --------------------------------------------
 
